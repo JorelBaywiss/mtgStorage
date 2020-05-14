@@ -14,4 +14,3 @@ class card:
         self.setcode=setcode
         self.rarity=rarity
         #color
-        list_holder=[]
