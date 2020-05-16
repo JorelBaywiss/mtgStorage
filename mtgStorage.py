@@ -33,6 +33,8 @@ class card:
             self.color="Multicolored"
 holder=open("MTG.txt","r+")
 cards=holder.readlines()
+for i in range(len(cards)):
+    cards[i]=cards[i].strip("\n")
 holder.close()
 #Changing the cards variable
 #Down below |
