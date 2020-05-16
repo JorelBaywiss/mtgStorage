@@ -14,3 +14,40 @@ class card:
         self.setcode=setcode
         self.rarity=rarity
         #color
+        color_list=[]
+        if find(manacost,"W"):
+            color_list.append("W")
+        if find(manacost,"U"):
+            color_list.append("U")
+        if find(manacost,"B"):
+            color_list.append("B")
+        if find(manacost,"R"):
+            color_list.append("R")
+        if find(manacost,"G"):
+            color_list.append("G")
+        if len(color_list)==0:
+            self.color="Colorless"
+        elif len(color_list)==1:
+            self.color=color_list[0]
+        else:
+            self.color="Multicolored"
+holder=open("MTG.txt","r+")
+cards=holder.readlines()
+holder.close()
+#Changing the cards variable
+#Down below |
+#           |
+#           v
+
+
+#           ^
+#           |
+#Up above   |
+#Changing the cards variable
+holder=open("MTG.txt","w")
+holder.write("")
+holder.close()
+holder=open("MTG.txt","a")
+print(cards)
+for item in cards:
+    holder.write(item)
