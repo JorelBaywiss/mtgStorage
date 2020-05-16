@@ -48,6 +48,6 @@ holder=open("MTG.txt","w")
 holder.write("")
 holder.close()
 holder=open("MTG.txt","a")
-print(cards)
 for item in cards:
+    print(item)
     holder.write(item)
