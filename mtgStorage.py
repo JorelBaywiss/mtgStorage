@@ -51,5 +51,4 @@ holder.write("")
 holder.close()
 holder=open("MTG.txt","a")
 for item in cards:
-    print(item)
     holder.write(item)
