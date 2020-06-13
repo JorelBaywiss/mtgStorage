@@ -1,0 +1,3 @@
+Cards go below
+Number of cards is represented by the number of cards
+[[list location of cards, Name, Set, Collectors numbers, Rarity, Types and subtypes, Mana_cost, list abilities, Power & Toughness if applicable],[(Same)]]

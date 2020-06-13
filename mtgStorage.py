@@ -1,5 +1,7 @@
+from os import system
 #definition of functions go here: |
 #                                 v
+system("cls")
 def colour(mana_cost):
     #this function returns a list which is the colour of the card.
     colours=[]
